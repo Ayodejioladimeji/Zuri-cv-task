@@ -1,0 +1,379 @@
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    padding:50px;
+}
+
+.container{
+    width:100%;
+    max-width:900px;
+    display:flex;
+    justify-content: space-between;
+    box-shadow:5px 5px 5px 5px rgba(0,0,0,0.2);
+    flex-wrap:wrap;
+    margin:0 auto;
+}
+
+.left{
+    width:70%;
+    padding:40px;
+}
+
+.left-section-one{
+    margin-bottom:50px;
+    line-height:50px;
+}
+
+.left-section-one h1{
+    font-size:40px;
+    font-family:tahoma;
+}
+
+.left-section-one h2{
+    font-size:25px;
+    font-family:monospace;
+    text-decoration:underline;
+}
+
+.left-section-two h3{
+    font-family:Tahoma;
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.left-section-two p{
+    font-size:15px;
+    font-weight:normal;
+    margin-bottom:12px;
+    font-family:arial;
+    text-align:justify;
+}
+
+.exp{
+    margin-top:40px;
+}
+
+.experience-date{
+    margin-bottom:20px;
+    color:#313030;
+    font-size:15px;
+    font-family:monospace;
+    margin-top:10px;
+}
+
+.experience h2{
+    font-family:Tahoma;
+    font-size:18px;
+}
+
+.experience2 h2{
+    font-family:Tahoma;
+    font-size:18px;
+    margin-top:25px;
+}
+
+
+.education{
+    margin-top:40px;
+}
+
+.education h4{
+    font-family:Tahoma;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+
+/* THE FOOTER */
+.footer{
+    margin-top:40px;
+}
+
+
+/* THE SECTION OF THE RIGHT */
+.right{
+    width:30%;
+    padding:40px 0;
+}
+
+/* THE ONE */
+
+.one{
+    margin-bottom:60px;
+    line-height:30px;
+}
+
+.one h4{
+    font-family:Tahoma;
+    font-size:14px;
+}
+
+.one p{
+    font-family:arial;
+    font-size:14px;
+}
+
+
+/* THE TWO */
+.two{
+    line-height:30px;
+    font-family:Tahoma;
+    margin-bottom:50px;
+
+}
+
+.two ul{
+    list-style:none;
+    font-size:15px;
+}
+
+/* THE THREE */
+.three{
+    margin-bottom:50px;
+    line-height:20px;
+    font-family:Tahoma;
+}
+
+.three h4{
+    margin-top:20px;
+    font-size:15px;
+}
+
+.three p{
+    font-size:12px;
+}
+
+/* THE FOUR */
+.four{
+    font-family:Tahoma;
+    font-size:14px;
+}
+
+.four p{
+    margin-top:20px;
+    font-family:Tahoma;
+}
+
+
+
+@media screen and (max-width:900px){
+    .left{
+        width:60%;
+        padding:30px 20px
+    }
+
+    .left-section-one h1{
+        font-size:30px;
+    }
+
+    .left-section-one h2{
+        font-size:20px;
+    }
+
+
+    .left-section-two p{
+        font-size:14px;
+    }
+
+    .left-section-two h3{
+        font-size:17px;
+    }
+
+    .experience-date{
+        font-size:14px;
+
+    }
+
+    .experience h2{
+        font-size:15px;
+    }
+
+    .experience2 h2{
+        font-size:15px;
+    }
+
+    .education h4{
+        font-family:Tahoma;
+        font-size:14px;
+        margin-bottom:10px;
+    }
+
+    .education p{
+        font-size:12px;
+    }
+
+
+    /* THE FOOTER */
+    .footer{
+        margin-top:40px;
+    }
+
+
+/* THE SECTION OF THE RIGHT */
+ .right{
+        width:40%;
+    }
+
+    .one h4{
+        font-size:14px;
+    }
+
+    .one p{
+        font-size:13px;
+    }
+
+
+    /* THE TWO */
+
+    .two h3{
+        font-size:16px;
+    }
+
+    .two ul{
+        font-size:14px;
+    }
+
+    /* THE THREE */
+
+    .three h3{
+        font-size:14px;
+    }
+
+    .three h4{
+        margin-top:20px;
+        font-size:15px;
+    }
+
+    .three p{
+        font-size:12px;
+    }
+
+    .four p{
+        font-size:14px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:700px){
+
+    body{
+        padding:10px;
+    }
+
+    .left{
+        width:100%;
+        padding:30px 20px
+    }
+
+/* THE SECTION OF THE RIGHT */
+ .right{
+        width:100%;
+        padding:30px 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width:460px){
+
+    .left{
+        padding:30px 15px;
+    }
+
+    .left-section-one h1{
+        font-size:25px;
+    }
+
+    .left-section-one h2{
+        font-size:18px;
+    }
+
+
+    .left-section-two p{
+        font-size:13px;
+    }
+
+    .left-section-two h3{
+        font-size:16px;
+    }
+
+    .experience-date{
+        font-size:14px;
+
+    }
+
+    .experience h2{
+        font-size:15px;
+    }
+
+    .experience2 h2{
+        font-size:15px;
+    }
+
+    .education h4{
+        font-size:13px;
+    }
+
+
+    /* THE FOOTER */
+    .footer{
+        margin-top:40px;
+    }
+
+
+/* THE SECTION OF THE RIGHT */
+    .one{
+        margin-bottom:20px;
+    }
+
+    .one h4{
+        font-size:14px;
+    }
+
+    .one p{
+        font-size:13px;
+    }
+
+
+    /* THE TWO */
+    .two{
+        margin-bottom:25px;
+    }
+
+    .two h3{
+        font-size:18px;
+    }
+
+    .two ul{
+        font-size:14px;
+    }
+
+    /* THE THREE */
+
+    .three h3{
+        font-size:14px;
+    }
+
+    .three h4{
+        margin-top:20px;
+        font-size:14px;
+    }
+
+    .three p{
+        font-size:12px;
+    }
+
+    .four p{
+        font-size:14px;
+    }
+
+}
