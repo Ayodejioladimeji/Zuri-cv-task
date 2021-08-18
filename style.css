@@ -58,6 +58,22 @@ body{
     margin-top:40px;
 }
 
+a{
+    text-decoration: none;
+}
+
+.experience h2 img{
+    height:30px;
+    width:30px;
+}
+
+.experience2 h2 img{
+    height:30px;
+    width:30px;
+}
+
+
+
 .experience-date{
     margin-bottom:20px;
     color:#313030;
